@@ -1,0 +1,47 @@
+/*public style  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    :root {
+    
+        --mainColor:#fb2e9f;
+    
+    
+    }
+    a{
+    
+    text-decoration: none;
+    
+    }
+    ul {
+    
+    list-style-type: none;
+    
+    }
+    
+    
+    .container {
+    width: calc(100% - 300px );
+    margin: auto;
+
+    background-color: rgb(255, 255, 255);
+    }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .active {
+
+        color: var(--mainColor) !important;
+    }
+    .border-0{
+
+        border:0;
+
+    }
